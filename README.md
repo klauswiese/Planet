@@ -1,13 +1,12 @@
 # Package to download Planet Scope images (4.77 m res) 
 
-The Norway’s International Climate and Forests Initiative Imagery Program paid millions so that we can all have access to high resolution images for monitoring the tropical forest. There are varoios other productos from planet, there are several other products, but those are not part of the approach here.
+The Norway’s International Climate and Forests Initiative Imagery Program paid millions so that we can all have access to high resolution images for monitoring the tropical forest.There are several other planet-products, but those are not part of the approach here.
 
 This is a very expirimental package and have only been tested in Linux.
 
 # 1. Planet - NICFI Account
 
 First you need an account on planet platform to access Planet Scope Imaginary, this can be done [here](https://www.planet.com/nicfi/)
-
 
 # 2. Planet Python client
 
