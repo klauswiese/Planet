@@ -70,27 +70,49 @@ PlanetScopeInit() is for initialize the planet python client, this function need
 ```
 which planet
 ```
-This will display the directory where your planet python client is installed. 
+This will display the directory where your planet python client is installed. Now you hace all the elements to run this package.
 
 ```
 library(Planet)
 
-  #Initialize data
-  Email <- "the email you use to create planet - NICFI account"
-  Password <- "The password you set"
-  DirPlanet <- "~/anaconda3/bin/planet"#My case
+# 1. Initialize ----
 
-  #Initialize the planet Python client
-  PlanetScopeInit(DirPlanet = DirPlanet, 
-                  Email = Email, 
-                  Password = Password
+#Data for initialize
+Email <- "the email you use to create planet - NICFI account"
+Password <- "The password you set"
+DirPlanet <- "~/anaconda3/bin/planet"#My case
+
+#Initialize the planet Python client
+PlanetScopeInit(DirPlanet = DirPlanet, 
+                Email = Email, 
+                Password = Password
+                  
+# 2. Monthly ----
+
+#Data to download Planet Scope Monthly Image
+AOI <- "~/To/Your/vector/directory/AOI.shp"
+Name <- "TheNameYouLike"
+Year <- 2020 
+Month <- 9 # Only available to the date
+
+#Execute function
+PlanetScopeMonthly(Name = Name, 
+                    AOI = AOI, 
+                    DirPlanet = DirPlanet, 
+                    Year = Year, 
+                    Month = Month)
+# 3. Biannual ----
+
+#Data to download Planet Scope Image
+AOI <- "~/To/Your/vector/directory/AOI.shp"
+Name <- "TheNameYouLike"
+Year <- 2020
+Semester <- 1
+
+#Execute function
+PlanetScopeMonthly(Name = Name, 
+                    AOI = AOI, 
+                    DirPlanet = DirPlanet, 
+                    Year = Year, 
+                    Semester = Semester)
 ```
-
-
-
-
-
-
-
-
-
