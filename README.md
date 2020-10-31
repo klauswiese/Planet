@@ -6,12 +6,12 @@ for the tropics from Norway’s International Climate and Forests Initiative Ima
 
 # Planet - NICFI Account
 
-First you need an account on planet platform to access Planet Scope Imaginary, this can be done [here}(https://www.planet.com/nicfi/)
+First you need an account on planet platform to access Planet Scope Imaginary, this can be done [here](https://www.planet.com/nicfi/)
 
 
 # Planet Python client
 
-Second you must install the planet python client, open your terminal and install planet. All documentation available [here}(https://github.com/planetlabs/planet-client-python)
+Second you must install the planet python client, open your terminal and install planet. All documentation available [here](https://github.com/planetlabs/planet-client-python)
 
 ---
 
