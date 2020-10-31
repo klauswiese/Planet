@@ -61,6 +61,35 @@ PlanetScopeNICFI()
 #  PS_Tropical_Normalized_Analytic_Monthly
 #1                          September 2020
 
+```
+
+## 4.2 PlanetScopeInit(), PlanetScopeBiannual() and PlanetScopeMonthly()
+
+
+PlanetScopeInit() is for incialize the planet python client, this fucntion needs the email account, the password and the directory whehe you put the planet client. In a linux SO you can find the directory by typing in your terminal: 
+
+```
+which planet
 
 
 ```
+
+
+```
+library(Planet)
+
+
+
+PlanetScopeInit()
+
+
+```
+
+
+
+
+
+
+
+
+
