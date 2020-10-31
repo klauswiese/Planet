@@ -27,7 +27,7 @@ devtools::install_github("klauswiese/Planet")
 
 ## 4.1 Available Image Collections
 
-Planet have daily images taken by dove satellites (with this type of account we dont have access to daily images), derivate from this images they generate biannual composites (mostly cloud free) and monthly images for monitorig forest in the tropics. 
+Planet have daily images taken by dove satellites (with this type of account we do not have access to daily images), derivate from this images they generate biannual composites (mostly cloud free) and monthly images for monitorig forest in the tropics. 
 
 ### 4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
 
@@ -44,7 +44,7 @@ For the monthly monitoring only exist for September 2020.
 
 ## 4.2 PlanetScopeNICFI()
 
-THis funtion is to see the images avalilable to download.
+This function is to see the images avalilable to download.
 
 ```
 library(Planet)
@@ -55,7 +55,7 @@ PlanetScopeNICFI()
 #1                            December 2018
 #2                                June 2019
 #3                            December 2019
-#                                June 2020
+#4                                June 2020
 
 #$`Monthly Collection`
 #  PS_Tropical_Normalized_Analytic_Monthly
@@ -65,24 +65,25 @@ PlanetScopeNICFI()
 
 ## 4.2 PlanetScopeInit(), PlanetScopeBiannual() and PlanetScopeMonthly()
 
-
-PlanetScopeInit() is for incialize the planet python client, this fucntion needs the email account, the password and the directory whehe you put the planet client. In a linux SO you can find the directory by typing in your terminal: 
+PlanetScopeInit() is for initialize the planet python client, this function needs the email account, the password and the directory whehe you put the planet client. In a linux SO you can find the directory by typing in your terminal: 
 
 ```
 which planet
-
-
 ```
-
+This will display the directory where your planet python client is installed. 
 
 ```
 library(Planet)
 
+  #Initialize data
+  Email <- "the email you use to create planet - NICFI account"
+  Password <- "The password you set"
+  DirPlanet <- "~/anaconda3/bin/planet"#My case
 
-
-PlanetScopeInit()
-
-
+  #Initialize the planet Python client
+  PlanetScopeInit(DirPlanet = DirPlanet, 
+                  Email = Email, 
+                  Password = Password
 ```
 
 
