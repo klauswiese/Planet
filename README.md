@@ -1,0 +1,1 @@
+# Package to download Planet Scope imagens (4.77 m res) fot the tropics from Norway’s International Climate and Forests Initiative Imagery Program
