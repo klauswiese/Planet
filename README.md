@@ -70,7 +70,7 @@ PlanetScopeInit() is for initialize the planet python client, this function need
 ```
 which planet
 ```
-This will display the directory where your planet python client is installed. Now you hace all the elements to run this package.
+This will display the directory where your planet python client is installed. Now you have all the elements to run this package.
 
 ```
 library(Planet)
