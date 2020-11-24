@@ -30,7 +30,7 @@ Planet have daily images taken by dove satellites (with this type of account we 
 
 ### 4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
 
-As in rigth now (Octuber 30 2020), there are 4 composites:
+As in rigth now (November 23, 2020), there are 7 composites:
 - First semester of 2017
 - Second semester of 2017
 - First semester of 2018
