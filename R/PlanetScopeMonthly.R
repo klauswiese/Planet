@@ -15,8 +15,13 @@ PlanetScopeMonthly <- function(Name, DirPlanet, AOI, Year=2020, Month=9){
   ymax <- st_bbox(Sitio)[4]
   Extent <- paste(xmin, ymin, xmax, ymax, sep=",")
   
+  
+  Month2 <- ifelse(Month < 10, paste0("0", Month), Month)
+  
+  Selection <- paste0(" mosaics download planet_medres_normalized_analytic_", Year ,"-", Month2, "_mosaic ")
+  
   #Image selection
-  Selection <- ifelse(Year == 2020 & Month == 9, " mosaics download planet_medres_normalized_analytic_2020-09_mosaic ", "No Data Avalaible For That Month")
+  #Selection <- ifelse(Year == 2020 & Month == 9, " mosaics download planet_medres_normalized_analytic_2020-09_mosaic ", "No Data Avalaible For That Month")
   
   print(Selection)
   
@@ -26,14 +31,14 @@ PlanetScopeMonthly <- function(Name, DirPlanet, AOI, Year=2020, Month=9){
   system(Descarga)
   
   #Lista de imágenes
-  t.lst <- list.files(Cimagen, pattern=".tif", full.names=TRUE)
+  #t.lst <- list.files(Cimagen, pattern=".tif", full.names=TRUE)
   
   #Lista de imágenes descargadas
-  out.tmp <- paste0("./", Cimagen,"/t_list.txt")
+  #out.tmp <- paste0("./", Cimagen,"/t_list.txt")
   
   #Directorio para guardar mosaico virtual
-  vrt.tmp <- paste0("./", Cimagen, "/", Cimagen, ".vrt")
+  #vrt.tmp <- paste0("./", Cimagen, "/", Cimagen, ".vrt")
   
   #Crear imagen virtual
-  system(paste0('gdalbuildvrt -input_file_list ', out.tmp, ' ', vrt.tmp))
+  #system(paste0('gdalbuildvrt -input_file_list ', out.tmp, ' ', vrt.tmp))
 }
