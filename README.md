@@ -31,7 +31,9 @@ Planet have daily images taken by dove satellites (with this type of account we 
 ### 4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
 
 As in rigth now (Octuber 30 2020), there are 4 composites:
-
+- First semester of 2017
+- Second semester of 2017
+- First semester of 2018
 - Second semester of 2018
 - First semester of 2019
 - Second semester of 2019
@@ -39,7 +41,7 @@ As in rigth now (Octuber 30 2020), there are 4 composites:
 
 ### 4.1.2 Planet Scope Tropical Normalized Analysis Monthly Monitoring
 
-For the monthly monitoring only exist for September 2020.
+For the monthly monitoring only exist for September and october 2020.
 
 ## 4.2 PlanetScopeNICFI()
 
@@ -51,14 +53,18 @@ PlanetScopeNICFI()
 
 #$`Biannual Collection`
 #  PS_Tropical_Normalized_Analytic_Biannual
-#1                            December 2018
-#2                                June 2019
-#3                            December 2019
-#4                                June 2020
+#1                                June 2017
+#2                            December 2017
+#3                                June 2018
+#4                            December 2018
+#5                                June 2019
+#6                            December 2019
+#7                                June 2020
 
 #$`Monthly Collection`
 #  PS_Tropical_Normalized_Analytic_Monthly
 #1                          September 2020
+#2                            October 2020
 
 ```
 
@@ -92,7 +98,7 @@ PlanetScopeInit(DirPlanet = DirPlanet,
 AOI <- "~/To/Your/vector/directory/AOI.shp"
 Name <- "TheNameYouLike"
 Year <- 2020 
-Month <- 9 # Only available to the date
+Month <- 9
 
 #Execute function
 PlanetScopeMonthly(Name = Name, 
