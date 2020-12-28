@@ -18,7 +18,7 @@ Show a data frame with the avalilable images in the Planet Scope Tropical Normal
 %  \item{Month}{9 for september, the only image available to the date }
 %}
 
-\value{Data frames with avalilable images}
+\value{Data frames with available images}
 
 \author{Klaus Wolfgang Wiese Acosta}
 

@@ -15,7 +15,7 @@ Download Planet Scope imagesfrom NICFI project using planet python client}
   \item{DirPlanet}{Directory to planet API install}
   \item{AOI}{Directory to Area of Interest Vector (any format sf can read ex: .GPKG, .shp)}
   \item{Year}{2020 by default, only year with available images}
-  \item{Month}{9 for september, the are monthy images for september (9) 2020  and october (10) 2020}
+  \item{Month}{9 for september, the are monthy images for september (9) 2020, october (10) 2020 and november (11) 2020}
 }
 
 \value{Planet scoper monthly composite for the area of interest}
