@@ -1,29 +1,35 @@
-Package to download Planet Scope images (4.77 m res)
+# Package to download Planet Scope images (4.77 m res)
 
 The Norway’s International Climate and Forests Initiative Imagery Program paid millions so that we can all have access to high resolution images for monitoring the tropical forest.There are several other planet-products, but those are not part of the approach here.
 
 This is a very expirimental package and have only been tested in Linux.
-1. Planet - NICFI Account
+
+## 1. Planet - NICFI Account
 
 First you need an account on planet platform to access Planet Scope Imaginary, this can be done here
-2. Planet Python client
+
+## 2. Planet Python client
 
 Second you must install the planet python client, open your terminal and install planet. All documentation available here
 
 pip install planet
 
-3. Install Planet Package
+## 3. Install Planet Package
 
 devtools::install_github("klauswiese/Planet")
 
-4. First Steps
-4.1 Available Image Collections
+## 4. First Steps
+### 4.1 Available Image Collections
 
 Planet have daily images taken by dove satellites (with this type of account we do not have access to daily images), derivate from this images they generate biannual composites (mostly cloud free) and monthly images for monitorig forest in the tropics.
-4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
+
+### 4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
 
 As in rigth now (Octuber 30 2020), there are 4 composites:
 
+    Second semester of 2015
+    First semester of 2016
+    Second semester of 2016
     First semester of 2017
     Second semester of 2017
     First semester of 2018
@@ -32,10 +38,11 @@ As in rigth now (Octuber 30 2020), there are 4 composites:
     Second semester of 2019
     First semester of 2020
 
-4.1.2 Planet Scope Tropical Normalized Analysis Monthly Monitoring
+### 4.1.2 Planet Scope Tropical Normalized Analysis Monthly Monitoring
 
-For the monthly monitoring only exist for September and october 2020.
-4.2 PlanetScopeNICFI()
+For the monthly monitoring only exist for September, october, november and december of 2020 and january, february and march of 2021.
+
+## 4.2 PlanetScopeNICFI()
 
 This function is to see the images avalilable to download.
 
@@ -107,4 +114,3 @@ PlanetScopeMonthly(Name = Name,
                     DirPlanet = DirPlanet, 
                     Year = Year, 
                     Semester = Semester)
-# Package to download Planet Scope imagens (4.77 m res) fot the tropics from Norway’s International Climate and Forests Initiative Imagery Program
