@@ -79,13 +79,13 @@ $`Monthly Collection`
 
 PlanetScopeInit() is for initialize the planet python client, this function needs the email account, the password and the directory whehe you put the planet client. In a linux SO you can find the directory by typing in your terminal:
 
-```
+```bash
 which planet
 ```
 
 This will display the directory where your planet python client is installed. Now you have all the elements to run this package.
 
-```
+```r
 library(Planet)
 
 # 1. Initialize ----
