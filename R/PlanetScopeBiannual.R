@@ -31,6 +31,7 @@ PlanetScopeBiannual <- function(Name, DirPlanet, AOI, Year, Semester){
                                       ifelse(Year == 2020 & Semester == 1, " mosaics download planet_medres_normalized_analytic_2020-06_2020-08_mosaic ", 
                                              "No Data Avalaible For That Semester"))))))))))
   
+
   print(Selection)
   
   #Sentencia de descarga

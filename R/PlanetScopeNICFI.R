@@ -13,7 +13,13 @@ PlanetScopeNICFI <- function(){
                                                                         "December 2019",
                                                                         "June 2020"))
   
-  NICFI_Monthly <- data.frame("PS_Tropical_Normalized_Analytic_Monthly" = c("September 2020", "October 2020", "November 2020"))
+  NICFI_Monthly <- data.frame("PS_Tropical_Normalized_Analytic_Monthly" = c("September 2020", 
+                                                                            "October 2020", 
+                                                                            "November 2020",
+                                                                            "December 2020", 
+                                                                            "January 2021", 
+                                                                            "February 2021",
+                                                                            "March 2021"))
   
   l <- list(NICFI_BI, NICFI_Monthly)
   names(l) <- c("Biannual Collection", "Monthly Collection")

@@ -24,21 +24,9 @@ PlanetScopeMonthly <- function(Name, DirPlanet, AOI, Year=2020, Month=9){
   #Selection <- ifelse(Year == 2020 & Month == 9, " mosaics download planet_medres_normalized_analytic_2020-09_mosaic ", "No Data Avalaible For That Month")
   
   print(Selection)
-  
+
   #Sentencia de descarga
   Descarga <- paste0(DirPlanet, Selection,
                      "--bbox=", Extent, " --dest ", paste0(getwd(), "/", Cimagen))
   system(Descarga)
-  
-  #Lista de imágenes
-  #t.lst <- list.files(Cimagen, pattern=".tif", full.names=TRUE)
-  
-  #Lista de imágenes descargadas
-  #out.tmp <- paste0("./", Cimagen,"/t_list.txt")
-  
-  #Directorio para guardar mosaico virtual
-  #vrt.tmp <- paste0("./", Cimagen, "/", Cimagen, ".vrt")
-  
-  #Crear imagen virtual
-  #system(paste0('gdalbuildvrt -input_file_list ', out.tmp, ' ', vrt.tmp))
 }
