@@ -6,11 +6,11 @@ This is a very expirimental package and have only been tested in Linux.
 
 ## 1. Planet - NICFI Account
 
-First you need an account on planet platform to access Planet Scope Imaginary, this can be done here
+First you need an account on planet platform to access Planet Scope Imaginary, this can be done [here](https://www.planet.com/nicfi/)
 
 ## 2. Planet Python client
 
-Second you must install the planet python client, open your terminal and install planet. All documentation available here
+Second you must install the planet python client, open your terminal and install planet. All documentation available [here](https://github.com/planetlabs/planet-client-python)
 
 pip install planet
 
