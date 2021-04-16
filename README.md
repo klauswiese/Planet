@@ -49,15 +49,16 @@ This function is to see the images avalilable to download.
 library(Planet)
 PlanetScopeNICFI()
 
-#$`Biannual Collection`
-#  PS_Tropical_Normalized_Analytic_Biannual
-#1                                June 2017
-#2                            December 2017
-#3                                June 2018
-#4                            December 2018
-#5                                June 2019
-#6                            December 2019
-#7                                June 2020
+`Biannual Collection`
+PS_Tropical_Normalized_Analytic_Biannual
+
+1                                June 2017
+2                            December 2017
+3                                June 2018
+4                            December 2018
+5                                June 2019
+6                            December 2019
+7                                June 2020
 
 #$`Monthly Collection`
 #  PS_Tropical_Normalized_Analytic_Monthly
