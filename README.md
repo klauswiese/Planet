@@ -26,7 +26,6 @@ Planet have daily images taken by dove satellites (with this type of account we 
 ### 4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
 
 As in rigth now (April 15 2021), there are 10 composites:
-
 ```
     Second semester of 2015
     First semester of 2016
@@ -48,7 +47,7 @@ For the monthly monitoring only exist for September, october, november and decem
 
 This function is to see the images avalilable to download.
 
-```
+```r
 library(Planet)
 PlanetScopeNICFI()
 
