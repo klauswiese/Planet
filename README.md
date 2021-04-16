@@ -25,8 +25,9 @@ Planet have daily images taken by dove satellites (with this type of account we 
 
 ### 4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
 
-As in rigth now (Octuber 30 2020), there are 4 composites:
+As in rigth now (April 15 2021), there are 10 composites:
 
+```
     Second semester of 2015
     First semester of 2016
     Second semester of 2016
@@ -37,6 +38,7 @@ As in rigth now (Octuber 30 2020), there are 4 composites:
     First semester of 2019
     Second semester of 2019
     First semester of 2020
+```
 
 ### 4.1.2 Planet Scope Tropical Normalized Analysis Monthly Monitoring
 
@@ -46,33 +48,45 @@ For the monthly monitoring only exist for September, october, november and decem
 
 This function is to see the images avalilable to download.
 
+```
 library(Planet)
 PlanetScopeNICFI()
 
-`Biannual Collection`
-PS_Tropical_Normalized_Analytic_Biannual
+$`Biannual Collection`
+   PS_Tropical_Normalized_Analytic_Biannual
+1                             December 2015
+2                                 June 2016
+3                             December 2016
+4                                 June 2017
+5                             December 2017
+6                                 June 2018
+7                             December 2018
+8                                 June 2019
+9                             December 2019
+10                                June 2020
 
-1                                June 2017
-2                            December 2017
-3                                June 2018
-4                            December 2018
-5                                June 2019
-6                            December 2019
-7                                June 2020
-
-#$`Monthly Collection`
-#  PS_Tropical_Normalized_Analytic_Monthly
-#1                          September 2020
-#2                            October 2020
+$`Monthly Collection`
+  PS_Tropical_Normalized_Analytic_Monthly
+1                          September 2020
+2                            October 2020
+3                           November 2020
+4                           December 2020
+5                            January 2021
+6                           February 2021
+7                              March 2021
+```
 
 4.3 PlanetScopeInit(), PlanetScopeBiannual() and PlanetScopeMonthly()
 
 PlanetScopeInit() is for initialize the planet python client, this function needs the email account, the password and the directory whehe you put the planet client. In a linux SO you can find the directory by typing in your terminal:
 
+```
 which planet
+```
 
 This will display the directory where your planet python client is installed. Now you have all the elements to run this package.
 
+```
 library(Planet)
 
 # 1. Initialize ----
@@ -115,3 +129,4 @@ PlanetScopeMonthly(Name = Name,
                     DirPlanet = DirPlanet, 
                     Year = Year, 
                     Semester = Semester)
+```
