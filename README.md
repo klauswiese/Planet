@@ -2,7 +2,7 @@
 
 The Norway’s International Climate and Forests Initiative Imagery Program paid millions so that we can all have access to high resolution images for monitoring the tropical forest.There are several other planet-products, but those are not part of the approach here.
 
-This is a very expirimental package and have only been tested in Linux.
+This is a very experimental package and have only been tested in Linux.
 
 ## 1. Planet - NICFI Account
 
