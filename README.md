@@ -41,11 +41,11 @@ As in rigth now (April 15 2021), there are 10 composites:
 
 ### 4.1.2 Planet Scope Tropical Normalized Analysis Monthly Monitoring
 
-For the monthly monitoring only exist for September, october, november and december of 2020 and january, february and march of 2021.
+For the monthly monitoring only exist for september, october, november and december of 2020 and january, february and march from 2021.
 
 ## 4.2 PlanetScopeNICFI()
 
-This function is to see the images avalilable to download.
+This function is to see the images available to download.
 
 ```r
 library(Planet)
@@ -81,6 +81,8 @@ PlanetScopeInit() is for initialize the planet python client, this function need
 
 ```bash
 which planet
+
+~/miniconda3/bin/planet
 ```
 
 This will display the directory where your planet python client is installed. Now you have all the elements to run this package.
