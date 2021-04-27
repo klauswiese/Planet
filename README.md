@@ -95,7 +95,7 @@ library(Planet)
 #Data for initialize
 Email <- "the email you use to create planet - NICFI account"
 Password <- "The password you set"
-DirPlanet <- "~/anaconda3/bin/planet"#My case
+DirPlanet <- "~/miniconda3/bin/planet"
 
 #Initialize the planet Python client
 PlanetScopeInit(DirPlanet = DirPlanet, 
