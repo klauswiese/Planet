@@ -25,7 +25,7 @@ Planet have daily images taken by dove satellites (with this type of account we 
 
 ### 4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
 
-As in rigth now (April 15 2021), there are 10 composites:
+As in rigth now (May 6 2021), there are 10 composites:
 ```
     Second semester of 2015
     First semester of 2016
@@ -41,7 +41,7 @@ As in rigth now (April 15 2021), there are 10 composites:
 
 ### 4.1.2 Planet Scope Tropical Normalized Analysis Monthly Monitoring
 
-For the monthly monitoring only exist for september, october, november and december of 2020 and january, february and march from 2021.
+For the monthly monitoring only exist for september, october, november and december of 2020 and january, february, march and april from 2021.
 
 ## 4.2 PlanetScopeNICFI()
 
@@ -73,6 +73,7 @@ $`Monthly Collection`
 5                            January 2021
 6                           February 2021
 7                              March 2021
+8                              April 2021
 ```
 
 ## 4.3 PlanetScopeInit(), PlanetScopeBiannual() and PlanetScopeMonthly()
