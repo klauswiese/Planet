@@ -29,11 +29,11 @@ devtools::install_github("klauswiese/Planet")
 ## 4. First Steps
 ### 4.1 Available Image Collections
 
-Planet have daily images taken by dove satellites (with this type of account we do not have access to daily images), derivate from this images they generate biannual composites (mostly cloud free) and monthly images for monitorig forest in the tropics.
+Planet have daily images taken by dove satellites (with this type of account we do not have access to daily images), derivate from this images they generate biannual composites (mostly cloud free) and monthly images for monitoring forest in the tropics.
 
 ### 4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
 
-As in rigth now (May 6 2021), there are 10 composites:
+As in rigth now (May 13 2021), there are 10 composites:
 ```r
     Second semester of 2015
     First semester of 2016
