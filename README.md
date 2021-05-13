@@ -1,6 +1,6 @@
 # Package to download Planet Scope images (4.77 m res)
 
-The Norway’s International Climate and Forests Initiative Imagery Program paid millions so we can all have access to high resolution images for monitoring the tropical forest.There are several other planet-products, but those are not part of the approach here.
+[Norway’s International Climate and Forests Initiative](https://www.nicfi.no/) Imagery Program paid millions so we can all have access to [planet](https://www.planet.com/) high resolution images for monitoring the tropical forest. There are several other planet-products, but those are not part of the approach here.
 
 This is a very experimental package and have only been tested in Linux (I am sure this will not work on Windows, and i am not planning to make it so).
 
@@ -12,11 +12,18 @@ First you need an account on planet platform to access Planet Scope Imaginary, t
 
 Second you must install the planet python client, open your terminal and install planet. All documentation available [here](https://github.com/planetlabs/planet-client-python)
 
+
+```console
 pip install planet
+```
+
 
 ## 3. Install Planet Package
 
-devtools::install_github("klauswiese/Planet")
+
+```r
+devtools::install_github("klauswiese/Planet")```
+
 
 ## 4. First Steps
 ### 4.1 Available Image Collections
@@ -26,7 +33,7 @@ Planet have daily images taken by dove satellites (with this type of account we 
 ### 4.1.1 Planet Scope Tropical Normalized Analysis Biannual Archive
 
 As in rigth now (May 6 2021), there are 10 composites:
-```
+```r
     Second semester of 2015
     First semester of 2016
     Second semester of 2016
@@ -80,7 +87,7 @@ $`Monthly Collection`
 
 PlanetScopeInit() is for initialize the planet python client, this function needs the email account, the password and the directory where you put the planet client. In a linux SO you can find the directory by typing in your terminal:
 
-```bash
+```console
 which planet
 
 ~/miniconda3/bin/planet
