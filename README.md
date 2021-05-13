@@ -22,7 +22,8 @@ pip install planet
 
 
 ```r
-devtools::install_github("klauswiese/Planet")```
+devtools::install_github("klauswiese/Planet")
+```
 
 
 ## 4. First Steps
