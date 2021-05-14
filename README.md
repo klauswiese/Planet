@@ -91,7 +91,7 @@ PlanetScopeInit() is for initialize the planet python client, this function need
 ```console
 which planet
 
-~/miniconda3/bin/planet
+#~/miniconda3/bin/planet
 ```
 
 This will display the directory where your planet python client is installed. Now you have all the elements to run this package.
