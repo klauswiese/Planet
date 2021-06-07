@@ -82,6 +82,7 @@ $`Monthly Collection`
 6                           February 2021
 7                              March 2021
 8                              April 2021
+9                                May 2021
 ```
 
 ## 4.3 PlanetScopeInit(), PlanetScopeBiannual() and PlanetScopeMonthly()
