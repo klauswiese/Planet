@@ -13,7 +13,7 @@
 \arguments{
   \item{DirPlanet}{Directory to planet API install}
   \item{Email}{Email for NICFI, you can create your account in https://www.planet.com/nicfi/}
-  \item{Password}{Password for MICFI program}
+  \item{Password}{Password for NICFI program}
 }
 
 \value{Planet scoper monthly composite for the area of interest}
