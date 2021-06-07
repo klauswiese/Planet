@@ -49,7 +49,7 @@ As in rigth now (June 7 2021), there are 10 composites:
 
 ### 4.1.2 Planet Scope Tropical Normalized Analysis Monthly Monitoring
 
-For the monthly monitoring only exist for september, october, november and december of 2020 and january, february, march and april from 2021.
+For the monthly monitoring only exist for september, october, november and december of 2020 and january, february, march, april and may from 2021.
 
 ## 4.2 PlanetScopeNICFI()
 
