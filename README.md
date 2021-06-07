@@ -117,8 +117,8 @@ PlanetScopeInit(DirPlanet = DirPlanet,
 #Data to download Planet Scope Monthly Image
 AOI <- "~/To/Your/vector/directory/AOI.shp"
 Name <- "TheNameYouLike"
-Year <- 2020 
-Month <- 9
+Year <- 2021 
+Month <- 5
 
 #Execute function
 PlanetScopeMonthly(Name = Name, 
