@@ -1,6 +1,6 @@
 \name{PlanetScopeBiannual}
 \alias{PlanetScopeBiannual}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{
   Planet Scope Monthly composite for the Planet Scope Tropical Normalized Analytic Biannual Archive from NICFI
 }
@@ -9,7 +9,7 @@ Download Planet Scope imagesfrom NICFI project using planet python client}
 \usage{
   PlanetScopeBiannual(Name, DirPlanet, AOI, Year, Semester)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{Name}{Text to name the folder for download images}
   \item{DirPlanet}{Directory to planet API install}
