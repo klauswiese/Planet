@@ -118,7 +118,7 @@ DirPlanet <- "~/miniconda3/bin/planet"
 #Initialize the planet Python client
 PlanetScopeInit(DirPlanet = DirPlanet, 
                 Email = Email, 
-                Password = Password
+                Password = Password)
                   
 # 2. Monthly ----
 
