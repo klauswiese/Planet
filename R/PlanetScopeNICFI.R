@@ -22,7 +22,8 @@ PlanetScopeNICFI <- function(){
                                                                             "March 2021",
                                                                             "April 2021",
                                                                             "May 2021",
-                                                                            "June 2021"))
+                                                                            "June 2021",
+                                                                            "July 2021"))
   
   l <- list(NICFI_BI, NICFI_Monthly)
   names(l) <- c("Biannual Collection", "Monthly Collection")
