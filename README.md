@@ -12,9 +12,7 @@ This is a very experimental package and have only been tested in Linux (I am sur
 
 
 \| [`Planet - NICFI Account`](#1-planet---nicfi-account) \| [`Planet Python client`](#2-planet-python-client) \|
-[`Install Planet Package`](#3-install-planet-package) \| [`El Coyolar`](#el-coolar) \| [`Los Laureles`](#los-laureles)
-\| [`Yure`](#Yure) \| [`Patuca III`](#patuca-iii) \| [`Cuadro Resumen`](#cuadro-resumen-de-embalses) \|
-# El Cajón
+[`Install Planet Package`](#3-install-planet-package) \| [`First Steps`](#4-first-steps) \|
 
 
 ## 1. Planet - NICFI Account
