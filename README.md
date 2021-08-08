@@ -11,8 +11,8 @@
 This is a very experimental package and have only been tested in Linux (I am sure this will not work on Windows, and i am not planning to make it so).
 
 
-\| [`Planet - NICFI Account`](#1-planet---nicfi-account) \| [`La Concepción`](#la-concepción) \|
-[`Nacaome`](#Nacaome) \| [`El Coyolar`](#el-coolar) \| [`Los Laureles`](#los-laureles)
+\| [`Planet - NICFI Account`](#1-planet---nicfi-account) \| [`Planet Python client`](#2-planet-python-client) \|
+[`Install Planet Package`](#3-install-planet-package) \| [`El Coyolar`](#el-coolar) \| [`Los Laureles`](#los-laureles)
 \| [`Yure`](#Yure) \| [`Patuca III`](#patuca-iii) \| [`Cuadro Resumen`](#cuadro-resumen-de-embalses) \|
 # El Cajón
 
