@@ -123,7 +123,8 @@ DirPlanet <- "~/miniconda3/bin/planet"
 #Initialize the planet Python client
 PlanetScopeInit(DirPlanet = DirPlanet, 
                 Email = Email, 
-                Password = Password)
+                Password = Password
+                )
                   
 # 2. Monthly ----
 
@@ -138,7 +139,8 @@ PlanetScopeMonthly(Name = Name,
                     AOI = AOI, 
                     DirPlanet = DirPlanet, 
                     Year = Year, 
-                    Month = Month)
+                    Month = Month
+                    )
 # 3. Biannual ----
 
 #Data to download Planet Scope Image
@@ -152,5 +154,6 @@ PlanetScopeMonthly(Name = Name,
                     AOI = AOI, 
                     DirPlanet = DirPlanet, 
                     Year = Year, 
-                    Semester = Semester)
+                    Semester = Semester
+                    )
 ```
