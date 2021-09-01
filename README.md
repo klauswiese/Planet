@@ -6,7 +6,7 @@
 
 # Package to download Planet Scope images (4.77 m res)
 
-[Norway’s International Climate and Forests Initiative](https://www.nicfi.no/) Imagery Program paid millions so we can all have access to [planet](https://www.planet.com/) high resolution images for monitoring the tropical forest. There are several other planet-products, but those are not part of the approach here.
+[Norway’s International Climate and Forests Initiative](https://www.nicfi.no/) Imagery Program paid millions so we can all have access to [planet](https://www.planet.com/) high resolution images (4.77 meters) for monitoring the tropical forest. There are several other planet-products, but those are not part of the approach here.
 
 This is a very experimental package and have only been tested in Linux (I am sure this will not work on Windows, and i am not planning to make it so).
 
