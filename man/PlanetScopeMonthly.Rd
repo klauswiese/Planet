@@ -16,7 +16,7 @@ Download Planet Scope imagesfrom NICFI project using planet python client}
   \item{AOI}{Directory to Area of Interest Vector (any format sf can read ex: .GPKG, .shp)}
   \item{Year}{2020 by default}
   \item{Month}{9 for september, the are monthy images for september (9), october (10) , november (11) and 
-    december (12) from 2020, january (1), february (2) , march (3), april (4), may (5) and june (6) from 2021.}
+    december (12) from 2020, january (1), february (2) , march (3), april (4), may (5), june (6), july (7) and august (8) from 2021.}
 }
 
 \value{Planet scoper monthly composite for the area of interest}
@@ -39,8 +39,8 @@ PlanetScopeInit(DirPlanet = DirPlanet,
 #Data to download Planet Scope Image
 AOI <- "~/To/Your/vector/directory/AOI.shp"
 Name <- "TheNameYouLike"
-Year <- 2020
-Month <- 9
+Year <- 2021
+Month <- 8
 
 #Execute function
 PlanetScopeMonthly(Name = Name, 
