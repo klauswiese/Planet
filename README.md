@@ -133,7 +133,7 @@ PlanetScopeInit(DirPlanet = DirPlanet,
 AOI <- "~/To/Your/vector/directory/AOI.shp"
 Name <- "TheNameYouLike"
 Year <- 2021 
-Month <- 7 # for july 2021
+Month <- 8 # for august 2021
 
 #Execute function
 PlanetScopeMonthly(Name = Name, 
