@@ -60,7 +60,7 @@ As in rigth now (October 6 2021), there are 10 composites:
 
 ### 4.1.2 Planet Scope Tropical Normalized Analysis Monthly Monitoring
 
-For the monthly monitoring only exist for september, october, november and december of 2020 and january, february, march, april, may, june, july and august from 2021.
+For the monthly monitoring only exist for september, october, november and december of 2020 and january, february, march, april, may, june, july, august and september from 2021.
 
 ## 4.2 PlanetScopeNICFI()
 
@@ -97,6 +97,7 @@ $`Monthly Collection`
 10                              June 2021
 11                              July 2021
 12                            August 2021
+13                         September 2021
 ```
 
 ## 4.3 PlanetScopeInit(), PlanetScopeBiannual() and PlanetScopeMonthly()
@@ -133,7 +134,7 @@ PlanetScopeInit(DirPlanet = DirPlanet,
 AOI <- "~/To/Your/vector/directory/AOI.shp"
 Name <- "TheNameYouLike"
 Year <- 2021 
-Month <- 8 # for august 2021
+Month <- 9 # for september 2021
 
 #Execute function
 PlanetScopeMonthly(Name = Name, 
