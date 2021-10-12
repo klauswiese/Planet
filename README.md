@@ -21,7 +21,7 @@ First you need an account on planet platform to access Planet Scope Imaginary, t
 
 ## 2. Planet Python client
 
-Second you must install the planet python client, open your terminal and install planet. All documentation available [here](https://github.com/planetlabs/planet-client-python)
+Second you must install the planet python client, open your terminal and install planet. All documentation is available [here](https://github.com/planetlabs/planet-client-python)
 
 
 ```console
