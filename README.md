@@ -149,7 +149,7 @@ PlanetScopeMonthly(Name = Name,
 AOI <- "~/To/Your/vector/directory/AOI.shp"
 Name <- "TheNameYouLike"
 Year <- 2020
-Semester <- 1
+Semester <- 1 #for the semester of the year
 
 #Execute function
 PlanetScopeMonthly(Name = Name, 
