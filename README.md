@@ -99,6 +99,9 @@ $`Monthly Collection`
 12                            August 2021
 13                         September 2021
 14                           October 2021
+15                          November 2021
+16                          December 2021
+17                           January 2022
 ```
 
 ## 4.3 PlanetScopeInit(), PlanetScopeBiannual() and PlanetScopeMonthly()
@@ -134,8 +137,8 @@ PlanetScopeInit(DirPlanet = DirPlanet,
 #Data to download Planet Scope Monthly Image
 AOI <- "~/To/Your/vector/directory/AOI.shp"
 Name <- "TheNameYouLike"
-Year <- 2021 
-Month <- 10 # for october 2021
+Year <- 2022 
+Month <- 1 # for january 2022
 
 #Execute function
 PlanetScopeMonthly(Name = Name, 
