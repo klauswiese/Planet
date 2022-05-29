@@ -29,7 +29,10 @@ PlanetScopeNICFI <- function(){
                                                                             "October 2021",
                                                                             "November 2021",
                                                                             "December 2021",
-                                                                            "January 2022")
+                                                                            "January 2022",
+                                                                            "Februery 2022",
+                                                                            "march 2022",
+                                                                            "April 2022")
                              )
   
   l <- list(NICFI_BI, NICFI_Monthly)
