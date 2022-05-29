@@ -17,7 +17,7 @@ Download Planet Scope imagesfrom NICFI project using planet python client}
   \item{Year}{2020 by default}
   \item{Month}{9 for september, the are monthy images for september (9), october (10) , november (11) and 
     december (12) from 2020, january (1), february (2) , march (3), april (4), may (5), june (6), july (7), august (8), september (9), october (10), november (11) and december (12) from 2021 and 
-               january (1) from 2022}
+               january (1) to april (4) from 2022}
 }
 
 \value{Planet scoper monthly composite for the area of interest}
